@@ -1,4 +1,4 @@
-import fechAnimales from "./fetchAnimales.js";
+import fechAnimales from "./fechAnimales.js";
 import clases from "./clases.js";
 
 const btnFormulario = document.getElementById("btnRegistrar");
@@ -12,7 +12,7 @@ let animalEstudiado = [];
 const { animales } = await fechAnimales.getData();
 
 nomAnimal.addEventListener("change", async () => {
-  const { animales } = await fechAnimales.getData();
+  
   return imagenAnimal(animales);
 });
 
