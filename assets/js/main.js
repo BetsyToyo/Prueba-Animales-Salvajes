@@ -12,6 +12,7 @@ let animalEstudiado = [];
 const { animales } = await fechAnimales.getData();
 
 nomAnimal.addEventListener("change", async () => {
+  const { animales } = await fechAnimales.getData();
   return imagenAnimal(animales);
 });
 
