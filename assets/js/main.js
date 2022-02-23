@@ -1,4 +1,4 @@
-import fechAnimales from "./fechAnimales.js";
+import fechAnimales from "./fetchAnimales.js";
 import clases from "./clases.js";
 
 const btnFormulario = document.getElementById("btnRegistrar");
