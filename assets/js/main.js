@@ -19,7 +19,7 @@ nomAnimal.addEventListener("change", async () => {
 let imagenAnimal = (animal) => {
   for (const key in animal) {
     nomAnimal.value == animal[key].name
-      ? (preview.style.backgroundImage = `url(/assets/imgs/${animal[key].imagen})`)
+      ? (preview.style.backgroundImage = `url(assets/imgs/${animal[key].imagen})`)
       : null;
   }
 };
