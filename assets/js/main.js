@@ -28,7 +28,7 @@ btnFormulario.addEventListener("click", async (event) => {
   event.preventDefault();
 
   const img = preview.style.backgroundImage;
-  const imgVal = img.slice(8, img.length - 2);
+  const imgVal = img.slice(5, img.length - 2);
 
   //instancias de clases
   let animal1;
